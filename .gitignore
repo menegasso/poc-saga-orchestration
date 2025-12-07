@@ -37,10 +37,11 @@ buildNumber.properties
 
 # IDE
 .idea/
+.vscode/
+.github/
 *.iml
 *.iws
 *.ipr
-.vscode/
 *.swp
 *.swo
 *~
