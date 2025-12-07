@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiCompraPacoteViagemApplication<api-compra-pacote-viagem>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.matera.poc.orquestrador.compra.pacote.viagem.ApiCompraPacoteViagemApplication",
+            "projectName": "api-compra-pacote-viagem",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiReservaCarroApplication<api-reserva-carro>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.matera.poc.reserva.carro.ApiReservaCarroApplication",
+            "projectName": "api-reserva-carro",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiReservaHotelApplication<api-reserva-hotel>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.matera.poc.reserva.hotel.ApiReservaHotelApplication",
+            "projectName": "api-reserva-hotel",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiReservaVooApplication<api-reserva-voo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.matera.poc.reserva.voo.ApiReservaVooApplication",
+            "projectName": "api-reserva-voo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
